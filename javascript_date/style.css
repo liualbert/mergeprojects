@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+
+li{
+    text-align: left;}
+
+table{
+    border-bottom:2px solid gold; 
+    border-top:2px solid gold;
+    width : 50%;
+    margin:auto;
+    font-size: 1.2em;   
+}
+
+th{
+    
+    background-color: skyblue;
+}
+
+td{
+
+    border-top: 1px dashed purple;
+    
+    
+}
