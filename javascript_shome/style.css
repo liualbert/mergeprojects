@@ -1,0 +1,105 @@
+#game{
+    text-align: left;
+    background-image: url(images/grass_blue_sky_background.jpg);
+    background-size: cover;    
+}
+
+
+#sun{
+    width: 100px;
+    height: 100px;
+    border: 10px solid light yellow;
+    background-color:gold;
+    border-radius: 50%;
+    box-shadow: 15px 15px 5px #888888;
+    position: absolute;
+    top:0px;
+    left:1350px;
+    }
+
+
+#sun:hover{
+    width: 200px;
+    height: 200px;
+         }
+
+#myimage{width: 100px;
+    height: 180px;
+    position: absolute;
+    top:550px;
+    left:600px;
+    
+    
+}
+#cow{width: 150px;
+    height: 150px;
+    position: absolute;
+    top:600px;
+    left:50px;
+    z-index: -1
+    
+}
+#rtate{width: 200px;
+    height: 150px;
+    position: absolute;
+    top:550px;
+    left:1200px;}
+#rail{width: 200px;
+    height: 150px;
+    position: absolute;
+    top:600px;
+    left:30px;
+      }
+
+#lkout{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:600px;
+    left:1200px;
+    z-index: -1
+    }
+
+
+#bird{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: -1;
+    animation: example 10s infinite linear;
+    }
+
+@keyframes example {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    
+    50%  {background-color:transparent; left:750px; top:0px;}
+     
+    100%  {background-color:transparent; left:1500px; top:0px;}
+                   }
+
+
+p{text-align:center;
+line-height: 700px}
+
+li{
+    text-align: left;}
+
+table{
+    border-bottom:2px solid gold; 
+    border-top:2px solid gold;
+    width : 50%;
+    margin:auto;
+    font-size: 1.2em;   
+}
+
+th{
+    
+    background-color: skyblue;
+}
+
+td{
+
+    border-top: 1px dashed purple;
+    
+    
+}
